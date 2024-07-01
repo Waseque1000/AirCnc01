@@ -7,7 +7,7 @@ const Avater = () => {
   return (
     <img
       className="rounded-full"
-      src={user && user.photoUrl ? user.photoUrl : img}
+      src={user && user.photoURL ? user.photoURL : img}
       alt="avater"
       height="30"
       width="30"
