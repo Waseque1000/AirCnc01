@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import img from "../../../assets/images/placeholder.jpg";
+import avatarImg from "../../../assets/images/placeholder.jpg";
 import { AuthContext } from "../../../providers/AuthProvider";
 
 const Avater = () => {
@@ -7,8 +7,9 @@ const Avater = () => {
   return (
     <img
       className="rounded-full"
-      src={user && user.photoURL ? user.photoURL : img}
-      alt="avater"
+      // src={user && user.photoURL ? user.photoURL : img}
+      src={user && user.photoURL ? user.photoURL : avatarImg}
+      alt="profile"
       height="30"
       width="30"
     />
