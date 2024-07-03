@@ -7,7 +7,6 @@ const Avater = () => {
   return (
     <img
       className="rounded-full"
-      // src={user && user.photoURL ? user.photoURL : img}
       src={user && user.photoURL ? user.photoURL : avatarImg}
       alt="profile"
       height="30"
